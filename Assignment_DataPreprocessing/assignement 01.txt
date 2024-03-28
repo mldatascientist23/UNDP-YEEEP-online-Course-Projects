@@ -1,0 +1,16 @@
+#Part 1: Data Exploration and Cleaning
+
+1. Read the "04_Data.csv" file using pandas
+2. Identify and analyze the data types of each column.
+3. Find the number of missing values in each column.
+4. Clean the missing values:
+    - Replace missing BMI values with the mean BMI (excluding NaN).
+    - Impute missing blood pressure values using a suitable method (e.g., forward fill).
+    - Handle missing diagnoses by considering appropriate strategies (e.g., dropping rows, assigning a new category).
+
+# Part 2: Data Preprocessing and Analysis:
+
+1. Convert the "Blood Pressure" column into two separate numerical columns for systolic and diastolic pressure using string manipulation techniques.
+2. Apply data normalization (e.g., min-max scaling) to "BMI" column.
+3. Create bins for the "Age" column (e.g., 20-30, 31-40, etc.) and use one-hot encoding to transform it into categorical features.
+4. Perform one-hot encoding on the "Diagnosis" column.
